@@ -42,10 +42,10 @@ function LandingPage() {
 
             <button
               onClick={() => router.push("/home")}
-              className="px-3 py-1 bg-blue-600 text-white rounded-md text-sm font-medium hover:bg-blue-700 transition"
+              className="px-4 py-1 bg-white text-black rounded-md text-sm font-medium hover:bg-gray-100 transition"
             >
               Go to Home
-            </button> 
+            </button>
           </div>
         ) : (
           // If you are not authenticated
